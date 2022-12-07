@@ -15,7 +15,7 @@ const TodoDetail = () => {
         ID: {selected.id}
         </div>
         <div>
-        CONTENT: {selected.id}
+        CONTENT: {selected.content}
         </div>
       </Card>
     </>
