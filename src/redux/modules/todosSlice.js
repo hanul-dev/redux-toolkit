@@ -13,6 +13,7 @@ export const todosSlice = createSlice({
   initialState,
   reducers: {
     addTodo: (state, action) => {
+      console.log(todosSlice);
       return {
         ...state,
         todos: [...state.todos, action.payload],
